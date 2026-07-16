@@ -1,12 +1,28 @@
 // lệnh chạy server 
-1. chạy backend 
-cd backend  => npm run dev
+## Chạy backend chạy backend 
+cd backend
+npm install
+  => npm run dev
 
-2. Chạy fontend(client)
-cd clent => npm run dev
+## Bước 2:  Chạy frontend
+cd frontend
+npm install
+  => npm run dev
 
+## Bước 3 — Tạo file .env trong thư mục server 
+PORT=5000
+MONGO_URI=mongodb://...  (lấy từ MongoDB Atlas)
+JWT_SECRET=your_secret_key
+JWT_EXPIRES_IN=7d
+CLIENT_URL=http://localhost:5173
+NODE_ENV=development
+
+## Bước 4: Truy cập
+Frontend: http://localhost:5173
+Backend:  http://localhost:5000
 
 //Api dùng để check bằng Postman khi  server  chạy
+// Khi đăng nhập user trên Postman 
 
 1. Check tình trạng server
 http://localhost:5000/api/health  => Dùng GET
@@ -48,3 +64,5 @@ Body/raw(Json)
   "priority": "high",
   "status": "in-progress"
 }
+
+
