@@ -2,7 +2,9 @@ Truy cập trang Web
  [https://task-manager-frontend-rko7.onrender.com](https://task-manager-frontend-rko7.onrender.com)
 
 
-Dùng bước này khi tải về từ Github
+
+
+Cách sử dụng khi tải về từ Github
 // lệnh chạy server 
 ## Chạy backend chạy backend 
 cd backend
